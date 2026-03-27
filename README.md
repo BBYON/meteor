@@ -2,7 +2,7 @@
 Meteor - Messaging pubsub behavior for Orbital
 
 
-cd("C:\\Users\\JTriolet\\Repository\\BBYON-HQ\\Milkywai-HQ\\meteor\\ebin").
+cd("C:\\Users\\user1\\Repository\\BBYON-HQ\\Milkywai-HQ\\meteor\\ebin").
 meteor_stream_sup:start_link().
 meteor_stream_sup:start_stream(<<"stream.plop">>).
 meteor_stream:debug(<<"stream.plop">>).
